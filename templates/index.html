@@ -29,7 +29,17 @@
             </div>
         </div>
 
+        <div class="row">
+            <div class="gif-grid">
+                {% for gif in loaded_gifs.get("results") %}
+                    {% include "gif.html" %}
+                {% endfor %}
+            </div>
+        </div>
     </div>
+
+
+
 
 
 {% endblock %}

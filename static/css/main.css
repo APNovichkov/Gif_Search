@@ -1,0 +1,12 @@
+/* random comment */
+
+.gif-grid{
+    margin-top: 40px;
+    display: grid;
+    grid-gap: 7px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.tenor-gif-embed{
+    width: 100%;
+}
