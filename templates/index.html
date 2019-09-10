@@ -1,8 +1,37 @@
-
+{% extends "base.html" %}
 <!-- TODO: Extend 'base.html' and put content into a block 'body' to match -->
 
 <!-- TODO: Make an HTML form containing a search box and a submit button to add
     the search term to the query string -->
+{% block body %}
+    <div class="jumbotron text-center">
+        <h1 class="page-title">GIF Search</h1>
+        <h5 class="page-subtitle">Where you can search GIFS ;)</h5>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="search-bar" style="text-align: center">
+                <form class="form-inline" action="/">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="GIF Keyword">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <button type="submit" class="btn btn-primary mb-2"> Search </button>
+                        </div>
+                    </div>
+                    <div class="col-md-4"></div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+{% endblock %}
 
 <!-- TODO: Make a for loop to loop over GIFs passed in from the server -->
 

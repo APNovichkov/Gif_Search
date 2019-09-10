@@ -9,7 +9,8 @@ app = Flask(__name__)
 def index():
     """Return homepage."""
     # TODO: Extract query term from url
-
+    search_input = request.args.get('search_input')
+    print("search_input: " + str(search_input))
     # TODO: Make 'params' dict with query term and API key
 
     # TODO: Make an API call to Tenor using the 'requests' library
@@ -18,7 +19,9 @@ def index():
 
     # TODO: Render the 'index.html' template, passing the gifs as a named parameter
 
-    return render_template("index.html")
+    return render_template(
+        "index.html",
+        search_input=search_input)
 
 
 if __name__ == '__main__':
