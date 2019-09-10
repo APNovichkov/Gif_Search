@@ -15,7 +15,7 @@ def index():
     params = {
         "api_key": "XE9GOKSZYLQB",
         "query_term": search_input,
-        "num_gifs_to_load": 8
+        "num_gifs_to_load": 9
     }
     # TODO: Make an API call to Tenor using the 'requests' library
     tenor_request = requests.get("https://api.tenor.com/v1/search?q=%s&key=%s&limit=%s" % (params.get("query_term"),

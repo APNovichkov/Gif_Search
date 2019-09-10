@@ -1,7 +1,7 @@
 /* random comment */
 
 .gif-grid{
-    margin-top: 40px;
+    margin-top: 30px;
     display: grid;
     grid-gap: 7px;
     grid-template-columns: 1fr 1fr 1fr;
