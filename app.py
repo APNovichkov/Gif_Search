@@ -38,6 +38,8 @@ def index():
     else:
         loaded_gifs = json.loads(tenor_request.content)
 
+    print("ANdrey was here")
+
     # TODO: Render the 'index.html' template, passing the gifs as a named parameter
     return render_template(
         "index.html",
