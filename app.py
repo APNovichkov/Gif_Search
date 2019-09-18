@@ -25,7 +25,7 @@ def index():
     tenor_request = requests.get("https://api.tenor.com/v1/search?q=%s&key=%s&limit=%s" % (params.get("query_term"),
                                  params.get("api_key"), params.get("num_gifs_to_load")))
     # get the top 10 trending GIFs - using the default locale of en_US
-    r = requests.get("https://api.tenor.com/v1/trending?key=%s&limit=%s" % (apikey, lmt))
+    top_10_gifs = requests.get("https://api.tenor.com/v1/trending?key=%s&limit=%s" % (apikey, lmt))
 
     loaded_gifs = None
     # TODO: Get the first 10 results from the search results
@@ -34,7 +34,7 @@ def index():
     print("Top_10 value: " + str(top_10))
 
     if top_10 == "true" or tenor_request.status_code != 200 or len(tenor_request.content) == 0:
-        loaded_gifs = json.loads(r.content)
+        loaded_gifs = json.loads(top_10_gifs.content)
     else:
         loaded_gifs = json.loads(tenor_request.content)
 

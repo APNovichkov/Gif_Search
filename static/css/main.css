@@ -9,7 +9,7 @@
 
 .search-bar-wrapper{
     background-color:#1A2838;
-    height: 100%;
+    height: 50%;
 }
 
 .search-bar{
@@ -22,3 +22,4 @@
 .tenor-gif-embed{
     width: 100%;
 }
+
