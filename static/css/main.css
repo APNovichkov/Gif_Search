@@ -9,15 +9,14 @@
 
 .search-bar-wrapper{
     background-color:#1A2838;
-    height: 50%;
+    height: 100%;
 }
 
 .search-bar{
     margin: 40px;
-    padding-bottom: 35px;
     text-align: center;
+    align-content: center;
 }
-
 
 .tenor-gif-embed{
     width: 100%;
