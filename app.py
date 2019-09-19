@@ -4,6 +4,8 @@ import json
 
 app = Flask(__name__)
 
+random_words = []
+
 
 @app.route('/')
 def index():
@@ -45,7 +47,12 @@ def index():
         search_input=search_input)
 
 
-if __name__ == '__main__':
-    app.run(debug=True)
+def load_words():
+    with open("random_words.txt", "r") as f:
+        for word in f:
+            random_words.append(word)
 
-    
+
+if __name__ == '__main__':
+    load_words()
+    app.run(debug=True)
