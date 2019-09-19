@@ -1,10 +1,11 @@
 /* random comment */
-
+ 
 .gif-grid{
     margin-top: 30px;
     display: grid;
     grid-gap: 7px;
     grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 40px;
 }
 
 .search-bar-wrapper{
@@ -15,6 +16,7 @@
 .search-bar{
     margin: 40px;
     text-align: center;
+    padding: 10px;
     align-content: center;
 }
 
