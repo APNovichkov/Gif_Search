@@ -20,6 +20,10 @@
     align-content: center;
 }
 
+.search-bar form{
+    display: inline;
+}
+
 .tenor-gif-embed{
     width: 100%;
 }
