@@ -21,6 +21,6 @@ If you want to see what is currently trending, click on "Top Trending" to load T
 
 You will first be greeted by our Homepage:
 
-![picture](homepage_screenshot.png)
+![picture](photos/homepage_screenshot.png)
 
 
