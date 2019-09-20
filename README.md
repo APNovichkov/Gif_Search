@@ -10,17 +10,18 @@ How to run our website:
     4. Open up your web browser 
     5. Go to url the terminal outputs 
 
-Our website is able to load GIFs about a "Keyword" you enter!
+Our website is able to load GIFs about a keyboard you enter!
 
-The keyword that you enter will be displayed for your convenience.
-
-If you are feeling random, click on "Feeling Random" to load random GIFs for you to enjoy.
-
-If you want to see what is currently trending, click on "Top Trending" to load Top Trending GIFs.
-
+The "Keyword" that you enter will be displayed for your convenience.
 
 You will first be greeted by our Homepage:
 
 ![picture](photos/homepage_screenshot.png)
 
+If you are feeling random, click on "Feeling Random" to load random GIFs for you to enjoy:
 
+![picture](photos/random.png)
+
+If you want to see what is currently trending, click on "Top Trending" to load Top Trending GIFs.
+
+![picture](photos/trending.png)
