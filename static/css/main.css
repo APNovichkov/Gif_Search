@@ -1,5 +1,5 @@
 /* random comment */
- 
+
 .gif-grid{
     margin-top: 30px;
     display: grid;
@@ -14,13 +14,23 @@
 }
 
 .search-bar{
-    margin: 40px;
     text-align: center;
     padding: 10px;
     align-content: center;
 }
 
+.search-bar-item{
+    margin-top: 7px;
+    margin-bottom: 14px;
+}
+
+.keyword{
+    margin-top: 7px;
+}
+.search-bar form{
+    display: inline;
+}
+
 .tenor-gif-embed{
     width: 100%;
 }
-
