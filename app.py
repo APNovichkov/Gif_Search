@@ -6,7 +6,7 @@ from random import choice
 app = Flask(__name__)
 
 random_words = []
-
+#load list of random for random button 
 def load_words():
     with open("random_words.txt", "r") as f:
         for word in f:
@@ -45,7 +45,8 @@ def index():
     search_request = requests.get("https://api.tenor.com/v1/search", params=search_params)
     top_10_request = requests.get("https://api.tenor.com/v1/trending", params=top_10_params)
     random_request = requests.get("https://api.tenor.com/v1/random", params=random_params)
-    # TODO: Get the first 10 results from the search results
+    
+    # TODO: Get the results from the search or use of the buttons
     loaded_gifs = None
     keyword = None
 

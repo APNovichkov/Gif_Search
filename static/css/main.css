@@ -1,5 +1,5 @@
-/* random comment */
 
+/*configure gifd display*/
 .gif-grid{
     margin-top: 30px;
     display: grid;
@@ -8,11 +8,17 @@
     padding-bottom: 40px;
 }
 
+.tenor-gif-embed{
+    width: 100%;
+}
+
+/*configure background*/
 .search-bar-wrapper{
     background-color:#1A2838;
     height: 100%;
 }
 
+/*configure searh buttons*/
 .search-bar{
     text-align: center;
     padding: 10px;
@@ -27,10 +33,7 @@
 .keyword{
     margin-top: 7px;
 }
-.search-bar form{
+.col-md-4 form{
     display: inline;
 }
 
-.tenor-gif-embed{
-    width: 100%;
-}
