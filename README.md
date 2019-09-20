@@ -10,7 +10,7 @@ How to run our website:
     4. Open up your web browser 
     5. Go to url the terminal outputs 
 
-Our website is able to load GIFs about a keyboard you enter!
+Our website is able to load GIFs about a keyword you enter!
 
 The "Keyword" that you enter will be displayed for your convenience.
 
